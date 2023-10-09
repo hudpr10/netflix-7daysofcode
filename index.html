@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div class="img__background">
+        <header class="nav">
+            <div class="nav__links">
+                <img class="nav__img" src="img/brand-img.png" alt="Logo Netflix">
+                <a class="nav__links-options">Início</a>
+                <a class="nav__links-options">Séries</a>
+                <a class="nav__links-options">Filmes</a>
+                <a class="nav__links-options">Bombando</a>
+                <a class="nav__links-options">Minha Lista</a>
+            </div>
+            <div class="nav__icons">
+                <svg class="icone" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                <svg class="icone" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 448 512"><path d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"/></svg>
+                <div class="div__icons-user">
+                    <img src="img/user-img.png" alt="Imagem de Usuário">
+                    <svg class="icone" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 320 512"><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/></svg>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="card__info">
+                <img class="card__img-title" src="img/titulo-img.png" alt="Titulo do Filme - Spiderhead">
+                <p class="card__info-p">
+                    Em uma penitenciária de última geração, um detento participa de um experimento com drogas que controlam as emoções para um gênio da indústria farmacêutica.
+                </p>
+                <div class="card__info__botoes">
+                    <button class="card__info-botao botao__principal">
+                        <svg class="icone" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" id="play"><path fill="#000" d="M7 17.259V6.741a1 1 0 0 1 1.504-.864l9.015 5.26a1 1 0 0 1 0 1.727l-9.015 5.259A1 1 0 0 1 7 17.259Z"></path></svg>
+                        Assistir
+                    </button>
+                    <button class="card__info-botao botao__secundario">
+                        <svg class="icone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" id="info"><rect fill="none"></rect><path d="M128.00146,24a104,104,0,1,0,104,104A104.12041,104.12041,0,0,0,128.00146,24Zm-.001,48a12,12,0,1,1-12,12A12,12,0,0,1,128.00049,72Zm8.001,112h-8a7.99541,7.99541,0,0,1-8-8V128a8,8,0,0,1,0-16h8a7.99539,7.99539,0,0,1,8,8v48a8,8,0,0,1,0,16Z" fill="#ffffff" width="24" height="24"></path></svg>
+                        Mais informações
+                    </button>
+                </div>
+            </section>
+
+            <section class="carrosseis">
+                <section class="carrossel-filmes">
+                    <h2 class="carrossel-titulo">Minha Lista</h2>
+                    <div class="filmes__container">
+                        <div class="filme">
+                            <div class="voltar"><img src="img/left-icon.svg"></div>
+                            <img src="img/poster_01.png" alt="Capa da série 'Bojack Horseman'">
+                        </div>
+                        <div class="filme">
+                            <img src="img/poster_02.png" alt="Capa da série 'Ozark'">
+                        </div>
+                        <div class="filme">
+                            <img src="img/poster_03.png" alt="Capa da série 'A vizinha da mulher na janela'">
+                        </div>
+                        <div class="filme">
+                            <img src="img/poster_04.png" alt="Capa da série 'Breaking Bad'">
+                        </div>
+                        <div class="filme">
+                            <img src="img/poster_05.png" alt="Capa da série 'The end of the f***ing world">
+                            <div class="avancar"><img src="img/right-icon.svg"></div>
+                        </div>
+                        
+                    </div>
+                </section>
+    
+                <section class="carrossel-filmes">
+                    <h2 class="carrossel-titulo">Em Alta</h2>
+                    <div class="filmes__container">
+                        <div class="filme">
+                            <div class="voltar"><img src="img/left-icon.svg"></div>
+                            <img src="img/poster_06.png" alt="Capa da série 'Stranger Things'">
+                        </div>
+                        <div class="filme">
+                            <img src="img/poster_07.png" alt="Capa da série 'The Umbrella Academy'">
+                        </div class="filme">
+                        <div class="filme">
+                            <img src="img/poster_08.png" alt="Capa da série 'Peaky Blinders">
+                        </div class="filme">
+                        <div class="filme">
+                            <img src="img/poster_09.png" alt="Capa do filme 'Arremessando Alto'">
+                        </div>
+                        <div class="filme">
+                            <img src="img/poster_10.png" alt="Capa do filme 'Amor & Gelato">
+                            <div class="avancar"><img src="img/right-icon.svg"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="carrossel-filmes">
+                    <h2 class="carrossel-titulo">Recomendações com base nos assistidos</h2>
+                    <div class="filmes__container">
+                        <div class="filme">
+                            <div class="voltar"><img src="img/left-icon.svg"></div>
+                            <img src="img/poster_11.png" alt="Capa da série 'As 7 Vidas de Lea'">
+                        </div> 
+                        <div class="filme">
+                            <img src="img/poster_12.png" alt="Capa da série 'Dark'">
+                        </div>
+                        <div class="filme">
+                            <img src="img/poster_13.png" alt="Capa da série 'Bem-vindos ao Éden'">
+                        </div>
+                        <div class="filme">
+                            <img src="img/poster_14.png" alt="Capa do filme 'Velvet Buzzsaw'">
+                        </div>
+                        <div class="filme">
+                            <img src="img/poster_15.png" alt="Capa da série 'The Good Place'">
+                            <div class="avancar"><img src="img/right-icon.svg"></div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        <footer>
+            <section class="footer-icons">
+                <div class="brand-icons">
+                    <img src="img/facebook.svg">
+                </div>
+                <div class="brand-icons">
+                    <img src="img/instagram.svg">
+                </div>
+                <div class="brand-icons">
+                    <img src="img/twitter.svg">
+                </div>
+                <div class="brand-icons">
+                    <img src="img/youtube.svg">
+                </div>
+            </section>
+
+            <section class="footer-info">
+                <div class="footer-section">
+                    <p class="footer-text">Idioma e legendas</p>
+                    <p class="footer-text">Impresa</p>
+                    <p class="footer-text">Privacidade</p>
+                    <p class="footer-text">Entrar em contato</p>
+                </div>
+                <div class="footer-section">
+                    <p class="footer-text">Audiodescrição</p>
+                    <p class="footer-text">Relações com investidores</p>
+                    <p class="footer-text">Avisos legais</p>
+                </div>
+                <div class="footer-section">
+                    <p class="footer-text">Centro de ajuda</p>
+                    <p class="footer-text">Carreiras</p>
+                    <p class="footer-text">Preferências de cookies</p>
+                </div>
+                <div class="footer-section">
+                    <p class="footer-text">Cartão pré-pago</p>
+                    <p class="footer-text">Termos de uso</p>
+                    <p class="footer-text">Informações corporativas</p>
+                </div>
+            </section>
+
+            <section>
+                <button class="footer-button__text">Código de serviço</button>
+            </section>
+
+            <section>
+                <p class="copyright">© 1997-2023 Netflix, Inc.</p>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
